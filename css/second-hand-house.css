@@ -1,0 +1,324 @@
+/*2.LOGO*/
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+#one .navbar{
+    margin-bottom: 0;
+}
+#two{
+    background-color:#F5F5F5;
+    padding-bottom:30px;
+    padding-top: 30px;
+}
+#LOGO a{
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+}
+#LOGO li.active>a{
+    color:#00AE66;
+}
+#LOGO li>a:hover{
+    color:#00AE66;
+}
+.logo{
+    width: 250px;
+    height: 25px;
+    margin-top: 10px;
+    background: url("../img/sprite1.png") -121px -284px no-repeat;
+}
+#LOGO li.iphone{
+    width: 13px;
+    height:27px;
+    margin-top: 15px;
+    background: url("../img/sprite1.png") no-repeat -580px -145px;
+}
+/*3.搜索框*/
+#seek{
+    margin-top: 20px;
+}
+#seek input{
+    width: 800px;
+    float: left;
+    height: 45px;
+    outline: none;
+    border:0;
+    border-right: transparent;
+    padding-left: 20px;
+}
+#seek button{
+    width: 50px;
+    height:45px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    background-color: #fff;
+}
+#seek button i{
+    display: inline-block;
+    background: url(../images/spriteV2.png) no-repeat -405px -15px;
+    width: 24px;
+    height: 24px;
+    vertical-align: -4px;
+}
+#seat li a{
+    color:black;
+}
+#seat li.active a{
+    color:#00AE66;
+}
+#seat li span.active{
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background: url("../img/sprite1.png") no-repeat -562px -185px;
+}
+#seat li span{
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background: url("../img/sprite1.png") no-repeat -571px -185px;
+}
+#seat2>div.container{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+}
+#area{
+    padding-left:75px;
+}
+#metro{
+    padding-left:75px;
+}
+#seat3{
+    margin-top: 30px;
+    padding-left: 30px;
+    line-height: 30px;
+    margin-bottom: 30px ;
+}
+#seat3 span{
+    display: inline-block;
+    font-weight: 700;
+}
+#seat3 a{
+    padding-right: 50px;
+    text-decoration: none;
+}
+#four span{
+    background: url("../img/sprite.png") -494px -170px no-repeat;
+    display:inline-block;
+    width: 12px ;
+    height: 15px;
+
+}
+.cu{display: none}
+.cc{display: none}
+#four li a{
+    margin-right:20px ;
+    font-weight: 700;
+}
+#four li.active a{
+    color: #ffffff;
+    background-color:#00ae66 ;
+}
+#four span.dot{
+    background: url("../img/sprite.png") -506px -170px no-repeat;
+    display:inline-block;
+    width: 12px ;
+    height: 15px;
+    margin-left:230px;
+}
+#four ul.navbar-nav{
+    border-bottom: 2px solid #00ae66;
+    padding-right: 10px;
+}
+div.fix{
+    background: url("../img/sprite1.png") -261px -122px no-repeat;
+    display:inline-block;
+    width: 123px ;
+    height: 74px;
+}
+#four div.next{
+    margin-top:-45px;
+}
+#five a{
+    color: #00ae66;
+}
+#five span{
+    border:1px solid #669FDE;
+    background-color: #669FDE;
+    width:123px;
+    height:35px ;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 6px ;
+}
+#six span{
+    color: red;
+    font-weight: 700;
+}
+#six p i.home{
+    background: url("../img/sprite.png") -451px -199px no-repeat;
+    display: inline-block;
+    width: 17px;
+    height:14px;
+}
+#six div.row{
+    margin-bottom:30px;
+}
+#six p>i.fixed{
+    background: url("../img/sprite.png") -593px -146px no-repeat;
+    display: inline-block;
+    width: 17px;
+    height:14px;
+}
+#six p>i.star{
+    background: url("../img/sprite.png") -577px -131px no-repeat;
+    display: inline-block;
+    width: 17px;
+    height:13px;
+}
+#six ul li.year{
+    color:#ff8d71;
+    width: 100px;
+    height: 30px ;
+    text-align: center;
+    border: 1px solid #FFECE8;
+    background-color: #FFECE8;
+    margin-right: 100px;
+}
+#six ul li.times{
+    color:#45CDC4;
+    width: 100px;
+    height: 30px ;
+    text-align: center;
+    border: 1px solid #E1F5ED;
+    background-color: #E1F5ED;
+    margin-right: 100px;
+}
+#sss {
+    float: right;
+    color: #fff;
+}
+#six b.s1>a{
+    color:  #B0B3B4;
+}
+#sss li{
+    list-style: none;
+    display: inline;
+}
+#six div.yok{
+    width: 80%;
+}
+#sss li>a{
+    display: inline-block;
+    color: black;
+    width: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+#sss li.active{
+    background-color:#394043;
+}
+#six b.s2{
+    float: right;
+    color: black;
+    cursor: pointer;
+}
+#zindex{
+    position:relative;
+}
+#img{
+    position:absolute;
+    top:-18px;
+    right:205px;
+    z-index:1;
+}
+/*底部*/
+/*右侧弹框*/
+#sugar{
+    right:0;
+    top:52px;
+    position: fixed;
+    background-color: transparent;
+    text-align: right;
+}
+#sugar div{
+    position: relative;
+}
+/*收藏*/
+#sugar span.collect{
+    position: absolute;
+    left:-55px;
+    top: 8px;
+    display:none;
+}
+/*提问*/
+#sugar div textarea{
+    position: absolute;
+    left:-160px;
+    display:none;
+}
+/*卖房*/
+#sugar input{
+    position: absolute;
+    left:-175px;
+    top:10px;
+    display:none;
+}
+/*保障*/
+#sugar a.guarantee{
+    position: absolute;
+    left:-210px;
+    top:15px;
+    display:none;
+}
+/*电话*/
+#sugar div p.iphone{
+    position: absolute;
+    left: -105px;
+    display:none;
+}
+/*扫一扫*/
+#sugar img.img{
+    position: absolute;
+    left:-122px;
+    top:-40px;
+    display:none;
+}
+/*新房*/
+#admin h2{
+    margin-left: 15px;
+}
+#admin img{
+    position: relative;
+    opacity: 0.8;
+    width: 218px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+#admin img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+#admin b{
+    position: absolute;
+    display: inline-block;
+    top: 60px;
+    left:60px;
+    color: #fff;
+}
+#admin p{
+    color: #B0B3B4;
+    font-weight: 700;
+}
+#admin p.p2{
+    color: #DB4C3F;
+    font-weight: 700;
+}
+#admin p.p2>span{
+    color: black;
+}

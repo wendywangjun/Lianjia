@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport-width,initial-scale=1,user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>武汉二手房</title>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/second-hand-house.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lianxiwomen.css"/>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+</head>
+<style>
+    a{
+        color: black;
+    }
+    #seat2 ul{
+        display: none;
+    }
+    #seat2 ul.active{
+        display: block;
+    }
+    .container{
+        padding-left:0;
+    }
+    .checkbox-inline, .radio-inline{
+        padding-left: 40px;
+        vertical-align:middle;
+    }
+    #six>div.container>div.row{
+        margin-bottom: 50px;
+    }
+    #six a{
+        text-decoration: none;
+    }
+
+</style>
+<body>
+<!--首页导航条-->
+<div id="one">
+    <div id="navigation bars">
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand" >首页</a>
+                </div>
+
+                <!-- 左侧 -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">二手房</a></li>
+                        <li><a href="#">新房</a></li>
+                        <li><a href="#">租房</a></li>
+                        <li><a href="#">旅游地产</a></li>
+                        <li><a href="#">海外</a></li>
+                        <li><a href="#">小区</a></li>
+                        <li><a href="#">经纪人</a></li>
+                        <li><a href="#">百科</a></li>
+                        <li><a href="#">卖房</a></li>
+                    </ul>
+                    <!--右侧-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">登录/注册</a></li>
+                        <li class="active"><a href="#">热线电话:1010-9666</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav><!--navbar navbar-inverse-->
+    </div>
+</div>
+<!--navigation bars-->
+<div id="two">
+    <div id="LOGO">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li><a href="#" class="logo"></a></li>
+                <li class="active"><a href="#">在售</a></li>
+                <li><a href="#">成交</a></li>
+                <li><a href="#">小区</a></li>
+                <li><a href="#">地图找房</a></li>
+            </ul>
+            <div class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="iphone"></li>
+                    <li><a href="#">下载链家APP</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="seek">
+        <div class="container">
+            <input type="text" placeholder="请输入区域，商圈或小区名开始找房"/>
+            <button type="submit">
+                <i></i>
+            </button>
+        </div>
+    </div>
+</div>
+<div id=" three">
+    <div id="seat">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li><a href="#"><b>位置</b></a></li>
+                <li class="active"><a href="#area">区域
+                    <span class="active"></span></a></li>
+                <li><a href="#metro">地铁线<span></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="seat2">
+        <div class="container" >
+            <ul class="nav navbar-nav active" id="area">
+                <li><a href="#">江岸</a></li>
+                <li><a href="#">江汉</a></li>
+                <li><a href="#">硚口</a></li>
+                <li><a href="#">东西湖</a></li>
+                <li><a href="#">青山</a></li>
+                <li><a href="#">武昌</a></li>
+                <li><a href="#">洪山</a></li>
+                <li><a href="#">汉阳</a></li>
+                <li><a href="#">东湖高新</a></li>
+                <li><a href="#">江夏</a></li>
+            </ul>
+            <ul class="nav navbar-nav" id="metro">
+                <li><a href="#">1号线</a></li>
+                <li><a href="#">2号线</a></li>
+                <li><a href="#">3号线</a></li>
+                <li><a href="#">4号线</a></li>
+                <li><a href="#">6号线</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="seat3">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-1">
+                    <p><b>售价</b></p>
+                </div>
+                <div class="col-lg-11">
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">60万以下</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">80-100万</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">100-120万</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">120-140万</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">150-200万</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">200万以上</a>
+                    <span class="custom1"><a href="#">+ 更多及自定义</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="cu">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-2">
+                        <p><b>自定义添加：</b></p>
+                    </div>
+                    <div class="col-lg-3" style="text-align: center">
+                        <input type="text" placeholder="请输入最低价格"/>
+                    </div>
+                    <div class="col-lg-3">
+                        <input type="text" placeholder="请输入最高价格"/>
+                    </div>
+                    <div class="col-lg-4">
+                        <input type="submit" value="精确查找"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-1">
+                    <p><b>面积</b></p>
+                </div>
+                <div class="col-lg-11">
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">80-100平</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">100-120平</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">120-140平</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">150-200平</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">200平以上</a>
+                    <span class="custom2"><a href="#">+ 更多及自定义</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="cc">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-2">
+                        <p><b>自定义添加：</b></p>
+                    </div>
+                    <div class="col-lg-3" style="text-align: center">
+                        <input type="text" placeholder="请输入最小面积"/>
+                    </div>
+                    <div class="col-lg-3">
+                        <input type="text" placeholder="请输入最大面积"/>
+                    </div>
+                    <div class="col-lg-4">
+                        <input type="submit" value="精确查找"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-1">
+                    <p><b>房型</b></p>
+                </div>
+                <div class="col-lg-11">
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">三室</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">四室</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">五室</a>
+                    <input type="checkbox" name="checkbox" value="0"/><a href="#">五室以上</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="four">
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">默认排序</a></li>
+            <li><a href="#">最新发布</a></li>
+            <li><a href="#">房屋总价</a></li>
+            <li><a href="#">房屋单价</a></li>
+            <li><a href="#">房屋面积</a></li>
+            <li><a href="#">带看较多</a></li>
+            <li><span  class="navbar-text  dot"></span></li>
+            <li><span class="navbar-text "></span></li>
+        </ul>
+        <div class="navbar-text navbar-right fix"></div>
+        <br/>
+    </div>
+    <div class="container next">
+        <b>筛选：</b>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox1" value="option1">满两年
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox2" value="option2">满五年
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox3" value="option3">新上
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox4" value="option4">随时看房
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox5" value="option5">不看地下室
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox6" value="option6">不看车位
+        </label>
+    </div>
+</div>
+<div id="five">
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li><h2><b>共有<a>7556</a>套武汉二手房</b></h2></li>
+        </ul>
+        <span class="navbar-text navbar-right">试试地图找房</span>
+    </div>
+</div>
+<div id="zindex">
+    <div id="img">
+        <h4><b>下载链家APP</b></h4>
+        <img src="img/getDownloadQr.png" width="40%">
+        <h5 >扫描左侧二维码</h5>
+        <h5> 随时了解最新房源</h5>
+        <p><a href="cartoon.html" style="text-decoration: none">了解更多></a></p>
+    </div>
+</div>
+<div id="six" class="container">
+    <div class="s0">
+
+    </div>
+    <div class="yok">
+        <b class="s1"><a href="#">链家二手房-武汉站 ></a></b>
+        <b class="s2">100</b>
+        <b class="s2">....&nbsp; &nbsp;</b>
+        <ul id="sss">
+            <li  class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+        </ul>
+
+    </div>
+</div>
+<div id="sugar">
+    <div class="sos">
+        <span class="collect">收藏房源</span>
+        <img src="images/a1.png" >
+    </div>
+    <div class="sos">
+        <textarea placeholder="请告诉我们您的提问" rows="2" ></textarea>
+        <img src="images/a2.png">
+    </div>
+    <div class="sos">
+        <input type="tel" placeholder="请输入您的电话号码"/>
+        <img src="images/a3.png">
+    </div>
+    <div class="sos">
+        <p class="iphone">4000-8888-8888</p>
+        <img src="images/a4.png">
+    </div>
+    <div class="sos">
+        <a href="#" class="guarantee">房地产中介诚信服务承诺及保证书</a>
+        <img src="images/a5.png">
+    </div>
+    <div class="sos">
+        <img src="images/sidebar_qr.png" class="img">
+        <img src="images/a6.png">
+    </div>
+    <div id="top"><img src="images/a9.png"></div>
+</div>
+<div id="sc_chat_box" class="wf-mobile-hidden sc-chat-animated sc-chat-bounce-in-up sc-chat-css-anim" style="bottom:0;visibility: visible;">
+
+    <div class="sc-chat-header">
+		<span class="sc-chat-header-title" >
+			联系我们</span>
+        <span style="float:right">X</span>
+        <i></i>
+    </div>
+    <div class="sc-chat-wrapper" id="yes">
+        <form action="index.php" id="SC_contact_form">
+            <input name="mobile_shut" value="1" type="hidden">
+            <input name="action" value="sc_chat_ajax_callback" type="hidden">
+            <p class="sc-lead">您好，欢迎来到链家在线客服</p>
+            <p class="sc-lead">您好，如有任何问题，请填写下面的表单。我们将会在第一时间联系您。</p>
+            <table class="sc_chat_qq_first">
+                <tbody>
+                <tr class="sc_chat_qq">
+                    <td>&nbsp;</td>
+                    <!--<td>-->
+                    <!--<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=123456789&amp;site=qq&amp;menu=yes">-->
+                    <!--<label alt="点击这里给我发消息" title="点击这里给我发消息" border="0"></a>-->
+                    <!--</td>-->
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+            <p></p>
+            <label for="f_chat_user_name">您的姓名 <span class="sc-req">*</span>:</label>
+
+            <input name="f_chat_user_name" id="f_chat_user_name" placeholder="您的姓名 (必填项)" type="text">
+
+            <label for="f_chat_user_email">手机号码<span class="sc-req">*</span>:</label>
+
+            <input name="f_chat_user_email" id="f_chat_user_email" placeholder="邮件地址 (必填项)" type="email">
+
+            <label for="f_chat_user_question">请告诉我们您想咨询的事情 <span class="sc-req">*</span>:</label>
+
+            <textarea name="f_chat_user_question" id="f_chat_user_question" placeholder="请告诉我们您想咨询的事情 (必填项)" rows="3"></textarea>
+            <div class="sc-start-chat-btn">
+                <a href="javascript:void(0)" id="SC_send_form_btn">发送</a>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="admin" class="container">
+    <h2>推荐楼盘</h2>
+    <div class="col-lg-3">
+        <img src="img/a11.jpg" alt=""/>
+        <b>蔡甸-联投金色港湾锦绣</b>
+        <p>3居 109-129平</p>
+        <p class="p2">11600<span>元/平</span></p>
+    </div>
+    <div class="col-lg-3">
+        <img src="img/a12.jpg" alt=""/>
+        <b>蔡甸-海淀城二期丽港新都</b>
+        <p>3居 139-149平</p>
+        <p class="p2">8500<span>元/平</span></p>
+    </div>
+    <div class="col-lg-3">
+        <img src="img/a13.jpg" alt=""/>
+        <b>洪山-爱家名校华城</b>
+        <p>3居 131-151平</p>
+        <p class="p2">9400<span>元/平</span></p>
+    </div>
+    <div class="col-lg-3">
+        <img src="img/a12.jpg" alt=""/>
+        <b>汉南-汉南天地</b>
+        <p>2居 115-129平</p>
+        <p class="p2">6000<span>元/平</span></p>
+    </div>
+</div>
+<div id="footer">
+
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/second-hand-house.js"></script>
+<script src="js/lj02.js"></script>
+<script>
+    $(".sc-chat-header").click(function(){
+        $("#yes").slideToggle(1000);
+    });
+    $(".s0 li:empty").remove();
+</script>
+</body>
+</html>

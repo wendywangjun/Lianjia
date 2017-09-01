@@ -1,0 +1,544 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font:14px "microsoft yahei",Arial,Helvetica,sans-serif;
+    color:#000;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+h1{
+    font-size: 24px;
+}
+#stress{
+    width:70%;
+    margin:0 auto;
+}
+#stress .F1{
+    float: left;
+}
+#stress .F2{
+    float: left;
+}
+#stress .F3{
+    float: left;
+}
+#stress .F4{
+    float: left;
+}
+img{
+    vertical-align:middle;
+}
+a{
+    color:#fff ;
+    text-decoration:none;
+}
+a:hover{
+    color:darkgray;
+    text-decoration:none;
+}
+header,nav,section,footer,#main,#sj,#footer-green{
+    width:95%;
+    margin:0 auto;
+}
+header{
+    height:640px;
+    background:url(../images/bannerV2.jpg) no-repeat;
+}
+#logo{
+    display:flex;
+    align-items:center;
+}
+#logo>span.lian{
+    display: inline-block;
+    width: 189px;
+    height: 46px;
+    background:url(../images/spriteV2.png) no-repeat 0 -10px;
+}
+#logo>div.di{
+    width:60px;
+    border-radius:10px;
+    border:1px solid #575758;
+    background-color:#575758;
+    vertical-align:top;
+    margin-left: 10px;
+}
+#logo>div.di>b{
+    display:inline-block;
+    padding-right: 16px;
+    width:13px;
+    height:14px;
+    background: url(../images/spriteV2.png) no-repeat -188px -18px;
+}
+#top{
+    width:70%;
+    margin: 0 auto;
+    border:1px solid transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#top ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#top ul>li{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+#s{
+    width:70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 40px;
+    border:1px solid transparent ;
+    text-align: right;
+}
+#s span b{
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background: url(../images/spriteV2.png) no-repeat -204px -18px;
+}
+#top ul>li.yi>img{
+    width: 20px;
+    height: 20px;
+}
+#top ul>li.er>b{
+    display: inline-block;
+    width:10px;
+    height:10px;
+    background: url(../images/spriteV2.png) no-repeat -224px -20px;
+}
+
+
+#center{
+    margin-top: 110px;
+    text-align: center;
+    padding-bottom:50px;
+}
+#one{
+    width: 600px;
+    margin: 0 auto;
+}
+#one div.kuan{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+}
+#one>div.two{
+    margin-bottom: 20px;
+}
+#one>div.kuan>b{
+    width:20px;
+    height:20px;
+    background:url(../images/spriteV2.png) no-repeat -250px -20px;
+    position: absolute;
+    top: -6px;
+    left:20px;
+}
+#one input.text{
+    padding-left:20px;
+    width: 550px;
+    height: 55px;
+    border:1px solid #fff;
+}
+#one button.so{
+    width:120px;
+    height:55px;
+    border:1px solid #00AE66;
+    background-color: #00AE66;
+    cursor: pointer;
+}
+#root{
+    height:100px;
+    width: 580px;
+    text-align: right;
+    margin-top:135px;
+    margin-left:600px;
+    display: flex;
+    justify-content: space-between;
+}
+#root img{
+    width:20px;
+    height:20px;
+}
+/*!***********************************头部结束***********************************************************/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 60px;
+
+}
+nav img{
+    width:100px;
+    height:85px;
+}
+nav img:hover{
+    position: relative;
+    top:-5px;
+}
+nav p{
+    width:212px;
+}
+#big{
+    height:367px;
+    background: url(../images/bg-app.jpg) no-repeat;
+    width: 70%;
+    margin: 0 auto;
+}
+#big>div.all{
+    width:475px;
+    padding-left: 20px;
+    margin-top: 20px;
+    clear: both;
+}
+#big p.wen{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#big div.three>span.w{
+    display: inline-block;
+    width: 150px;
+    height: 104px;
+    background:url(../images/spriteV2.png) no-repeat -14px -141px;
+}
+#big div.three>span>img{
+    width:97px;
+    margin-top: -102px;
+}
+
+/*!***********************************大图结束***********************************************************/
+
+#new{
+    margin-top: 20px;
+}
+#new>h1>span{
+    margin-left: 10px;
+    font-weight: normal;
+}
+#new>div.ch{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+    font-weight: normal;
+    padding-top:5px ;
+}
+#st{
+    display:inline-flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#st>div.b{
+    width: 340px;
+    height: 260px;;
+    background: url(../images/b.jpg) no-repeat;
+    opacity: 0.8;
+}
+#st>div.b:hover{
+    transform:scale(1.05 );
+    transition: 0.5s;
+    cursor: pointer;
+}
+#st>div.p{
+    width: 340px;
+    height: 260px;;
+    background: url(../images/n.jpg) no-repeat;
+    opacity: 0.8;
+}
+#st>div.p:hover{
+    transform:scale(1.05 );
+    transition: 0.5s;
+    cursor: pointer;
+}
+#st>div.i{
+    width: 340px;
+    height: 260px;;
+    background: url(../images/m.jpg) no-repeat;
+    opacity: 0.9;
+}
+#st>div.i:hover{
+    transform:scale(1.05 );
+    transition: 0.5s;
+    cursor: pointer;
+}
+#st div.zx{
+    margin-top: 25%;
+}
+#st h3{
+    color: gold;
+}
+/*!***********************************新房结束***********************************************************/
+#main-tow>h1>span{
+    font-weight: normal;
+}
+#main-tow>div.nk{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+    font-weight: normal;
+    padding-top:5px ;
+}
+#main-sreen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#main-sreen>div.no{
+    border:1px solid #ddd;
+}
+#main-sreen div.no-1{
+    width:260px;
+    height: 260px;
+    background: url(../images/no-1.jpg) no-repeat;
+    position: relative;
+}
+#main-sreen div.no-1>h3{
+    width:50px;
+    height: 30px;
+    position:absolute;
+    top:190px;
+    background-color: dimgrey;
+}
+#main-sreen>div.no>h4{
+    text-align: center;
+    height: 50px;
+}
+#main-sreen>div.yes{
+    border:1px solid #ddd;
+}
+#main-sreen div.no-2{
+    width:260px;
+    height: 260px;
+    background: url(../images/no-2.jpg) no-repeat;
+    position: relative;
+}
+#main-sreen div.no-2>h3{
+    width:50px;
+    height: 30px;
+    position:absolute;
+    top:190px;
+    background-color: dimgrey;
+}
+#main-sreen>div.yes>h4{
+    text-align: center;
+    height: 50px;
+}
+#main-sreen>div.ne{
+    border:1px solid #ddd;
+}
+#main-sreen div.no-3{
+    width:260px;
+    height: 260px;
+    background: url(../images/no-3.jpg) no-repeat;
+    position: relative;
+}
+#main-sreen div.no-3>h3{
+    width:50px;
+    height: 30px;
+    position:absolute;
+    top:190px;
+    background-color: dimgrey;
+}
+#main-sreen>div.na{
+    border:1px solid #ddd;
+}
+#main-sreen>div.ne>h4{
+    text-align: center;
+    height: 50px;
+}
+#main-sreen div.no-4{
+    width:260px;
+    height: 260px;
+    background: url(../images/no-4.jpg) no-repeat;
+    position: relative;
+}
+#main-sreen div.no-4>h3{
+    width:50px;
+    height: 30px;
+    position:absolute;
+    top:190px;
+    background-color: dimgrey;
+}
+#main-sreen>div.na>h4{
+    text-align: center;
+    height: 50px;
+}
+#xia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 70px;
+    color:dimgrey;
+}
+/*!***********************************主体内容结束***********************************************************/
+
+#footer_green{
+    width:100%;
+    height: 248px;
+    background: url(../images/truth-bgV2.jpg) no-repeat;
+    margin-top:25px;
+    padding-top: 40px;
+}
+#lil{
+    padding-left: 20px;
+    width: 70%;
+    margin:0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#lil div.wz{
+    width: 330px;
+    height:50px;
+    background: url("../images/spriteV2.png") no-repeat -13px -255px;
+    margin-top:25px;
+    margin-bottom: 20px;
+}
+#lil div.wzy{
+    width: 520px;
+    height:50px;
+    background: url("../images/spriteV2.png") no-repeat -14px -318px;
+}
+#lil h3{
+    margin:25px auto;
+    color: #fff;
+}
+#lil>div.text{
+    height:200px;
+    width: 350px;
+}
+#lil input{
+    width: 300px;
+    height: 30px;
+    float: left;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    padding-left: 20px;
+}
+#lil>div.text>div>span{
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    background: url(../images/spriteV2.png) no-repeat -405px -15px ;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+/*模态框*/
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0, .7);
+    z-index: 999;
+    display:none;
+}
+.modal-dialog {
+    width: 370px;
+    margin: 100px auto;
+}
+.modal-content {
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #aaa;
+    padding: 16px 12px;
+}
+.modal-content h4 {
+    font-size: 1.5em;
+}
+.modal-content .alert {
+    margin: 15px 0;
+    border: 1px solid #e4393c;
+    background: #fee;
+    color: #e4393c;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 2px;
+}
+.modal-content input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 6px 0;
+    line-height: 2em;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 2px 6px;
+}
+.alert1{
+    cursor: pointer;
+}
+.alert2{
+    cursor: pointer;
+}
+/*注册信息*/
+.sign {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0, .7);
+    z-index:900;
+    display:none;
+}
+.sign-dialog {
+    width: 370px;
+    margin: 100px auto;
+}
+.sign-content {
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #aaa;
+    padding: 16px 12px;
+}
+.sign-content .login {
+    margin: 15px 0;
+    border: 1px solid #e4393c;
+    background: #fee;
+    color: #e4393c;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 2px;
+}
+.sign-content input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 6px 0;
+    line-height: 2em;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 2px 6px;
+}
+#main-sreen h3>a {
+    text-align: center;
+    line-height: 28px;
+    display: block;
+}
+
+
+
+
+

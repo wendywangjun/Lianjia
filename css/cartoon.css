@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 900;
+}
+h4{
+    font-weight:500;
+    font-size: 22px;
+}
+#topboss{
+    width: 100%;
+    height:1200px;
+    background-image: url("../img/bg-01.jpg");
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#bgboss  .boss1{
+    background-color: #fff;
+}
+#top {
+    background: url("../img/bg-top.png") no-repeat;
+    background-position: bottom;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.lj1{
+    width: 279px;
+    height: 35px;
+    background: url("../img/sprite.png")-750px -879px no-repeat;
+    margin-top:30px;
+}
+#lj h1{
+    margin-top: 25%;
+    display: none;
+}
+#lj h4{
+    margin-top:10%;
+    display: none;
+}
+.lj3{
+    margin-top:30px;
+    height: 122px;
+    display: none;
+}
+.ios{
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    padding-top:15px;
+    border-radius:5px;
+    background-color: #394043;
+    color: #f0f0f0;
+    font-weight: 600;
+}
+.Android{
+    width:125px;
+    height: 50px;
+    text-align: center;
+    padding-top:15px;
+    border-radius:5px;
+    background-color: #00AE66;
+    color: #f0f0f0;
+    font-weight: 600;
+}
+#bgboss{
+    width: 100%;
+    height:1200px;
+    background-image: url("../img/bg-02.jpg");
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hh {
+    margin-top: 15%;
+}
+#hh h4{
+    font-weight: 900;
+    margin-top:70px;
+}
+#bgboss .fn {
+    width: 328px;
+    height:568px;
+    position: relative;
+    top: -175px;
+    right: -110px;
+    background: url("../img/sprite.png") -395px -492px no-repeat;
+}
+#bgboss .fr{
+    background-image: url('../img/daikan2.png');
+    width: 540px;
+    height: 302px;
+    position: absolute;
+    z-index: 10;
+    top:5px;
+    display: none;
+}
+#bgboss2{
+    width: 100%;
+    height:1200px;
+    background-image: url("../img/bg-03.jpg");
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#bgboss2>.bg1{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+}
+#bgboss2 .bgimg{
+    width: 332px;
+    height: 387px;
+    background: url("../img/sprite.png") -757px -306px no-repeat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    position: relative;
+
+}
+#bgboss2 .bg-img{
+    width:485px;
+    height: 100px;
+    background: url("../img/sprite.png")-792px -745px no-repeat;
+    position: absolute;
+    top: 220px;
+    display: none;
+}
+#ss{
+    margin-top: 15%;
+}
+#ss h4{
+    margin-top: 70px;
+}
+#footer .f{
+    margin-bottom: 60px;
+}
+#f-text{
+    width: 515px;
+    margin-top: 25%;
+}
+#f-text h4{
+    margin-top: 50px;
+}
+#footer .f-bg1{
+    margin-top: 50px;
+    width:760px;
+    height:482px;
+    background: url("../img/sprite.png")0 0 no-repeat;
+    position: relative;
+}
+#footer .f-bg2{
+    width: 195px;
+    height: 208px;
+    background: url("../img/sprite.png")-1089px -304px no-repeat;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: -60px;
+    transition:all 0.8s linear;
+}
+#footer .f1 p{
+    float: right;
+}
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <title>链上你的家</title>
+    <link rel="stylesheet" href="css/lianjia.css">
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <style>
+        a{
+            color: #ffeeee;
+        }
+        #main-tow p a{
+            color:#000;
+        }
+        #new p a{
+            color:#000;
+        }
+        #xia>span>a{
+            color:darkgray;
+        }
+    </style>
+    <script src="js/movie.js"></script>
+<body>
+<!--链家头部-->
+<header>
+    <!--头部分类-->
+    <div id="s">
+            <span>
+                <b></b><a href="#" id="log">登录</a>
+            </span>
+        <span><a href="#" id="sig">立即注册</a></span>
+    </div>
+    <div id="top">
+        <div id="logo">
+            <span class="lian"></span>
+            <div class="di">
+                <b></b><a href="#">武汉</a>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#" id="actor">二手房</a></li>
+            <li><a href="#">新房</a></li>
+            <li><a href="#">租房</a></li>
+            <li><a href="#">海外</a></li>
+            <li class="yi"><img src="images/lvju.png"><a href="#">旅居地产</a></li>
+            <li><a href="#">经纪人</a></li>
+            <li><a href="#">百科</a></li>
+            <li><a href="#">工具</a></li>
+            <li class="er"><b></b><a href="#">卖房</a></li>
+        </ul>
+    </div>
+    <!--登录框-->
+    <div class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <h4>用户登录</h4>
+                <p class="alert">
+                    请在此处输入您的登录信息。
+                </p>
+                <form id="login-form">
+                    <input type="text" placeholder="请输入登录用户名" id="uname" name="uname" value="">
+                    <input type="password" placeholder="请输入登录密码" id="upwd" name="upwd" value="">
+                    <input type="button" value="提交登录信息" id="bt-login">
+                    <p class="alert1">退出登录>></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--注册框-->
+    <div class="sign">
+        <div class="sign-dialog">
+            <div class="sign-content">
+                <h4>用户注册</h4>
+                <p class="login">
+                    请在此处输入您的注册信息。
+                </p>
+
+                <form id="login-f">
+                    <span>注册用户名:</span><input type="text" placeholder="请注册新用户名" id="uid" name="uid" value="">
+                    <span>设置登录密码:</span><input type="password" placeholder="请设置新密码" id="uip" name="uip" value="">
+                    <span>您的手机号码:</span><input type="text" placeholder="请输入您的手机号码" id="uphone" name="uphone" value="">
+                    <input type="button" value="提交注册信息" id="login-id">
+                    <p class="alert2">退出登录 >></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--中心-->
+    <div id="center">
+        <b><img src="images/banner-text.png"></b>
+        <h2><a href="">合肥链家真实在售二手房11224套</a></h2>
+    </div>
+    <div id="one">
+        <div class="two">
+            <a href="#">找二手房</a>
+            <a href="#">租房</a>
+        </div>
+        <div class="kuan">
+            <b></b>
+            <input class="text" placeholder="请输入区域，商圈或小区名开始搜索" >
+            <button class="so">开始找房</button>
+        </div>
+    </div>
+    <!--<底部>-->
+    <div id="root">
+        <a href="#"><img src="images/php3X11MP.png">关于仿冒我公司进行不正当竞争行为的郑重声明</a>
+        <a href="#"><img src="images/phpAPdvEm.png">房地产中介诚信服务承诺及保证书</a>
+    </div>
+</header>
+<!--一张大图-->
+<div id="big">
+    <div class="all">
+        <h2>一链倾城</h2>
+        <h1>为你为家</h1>
+        <p class="wen">集二手、新房、租房功能于一体，随时随地任性找房。IM匿名咨询让您放心，消息动态推送让您省心，服务承诺让您安心，数据百科锦囊让您感受贴心漫漫找房路，我们努力为您想到更多。</p>
+        <div class="three">
+            <span class="w"></span>
+            <span><img src="images/sidebar_qr.png"></span>
+        </div>
+    </div>
+</div>
+
+<!--四个小图-->
+<div id="stress">
+    <nav>
+        <div class="F1">
+            <img src="images/phpe022WE.png">
+            <h3>找二手房</h3>
+            <p>真实二手房源，链家承诺真实在售所见即真</p>
+        </div>
+        <div class="F2">
+            <img src="images/php4TtmtO.png">
+            <h3>地图找图</h3>
+            <p>为您精准定位，位置周边配套设施一览无余</p>
+        </div>
+        <div class="F3">
+            <img src="images/phpxYKKUt.png">
+            <h3>找出租房</h3>
+            <p>海量出租房源，质优好房源专业服务全新呈现</p>
+        </div>
+        <div class="F4">
+            <img src="images/phpkDJEoM.png">
+            <h3>专业顾问</h3>
+            <p>万名职业顾问，专业服务，百万家庭的信赖之选</p>
+        </div>
+    </nav>
+
+
+    <!--主体内容新房-->
+    <section>
+        <div id="new">
+            <h1><b>新房</b><span>新起航</span></h1>
+            <div class="ch">
+                <p>真实信息准确同步，楼盘动态一手掌握</p>
+                <p><a href="#">更多武汉房</a></p>
+            </div>
+        </div>
+        <div id="st">
+            <div class="b">
+                <div class="zx">
+                    <h1>
+                        <a href="#">蓝光庸锦半岛</a>
+                    </h1>
+                    <h3>16500元/平</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="zx">
+                    <h1>
+                        <a href="#">文德艺墅</a>
+                    </h1>
+                    <h3>12200元/平</h3>
+                </div>
+            </div>
+            <div class="i">
+                <div class="zx">
+                    <h1>
+                        <a href="#">融创一号</a>
+                    </h1>
+                    <h3>28000元/平</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--主体内容二手房-->
+    <div id="main">
+        <div id="main-tow">
+            <h1>
+                <b>二手好房</b>
+                <span>为你而选</span>
+            </h1>
+            <div class="nk">
+                <p>好房源那么多，我们为你精选，链家网会越来越懂你</p>
+                <p><a href="second-handhouse.html">更多武汉房</a></p>
+            </div>
+        </div>
+        <div id="main-sreen">
+            <div class="no">
+                <div class="no-1">
+                    <h3><a href="#">172万</a></h3>
+                </div>
+                <h4>世纪城春融苑  3室2厅  172万</h4>
+            </div>
+            <div class="yes">
+                <div class="no-2">
+                    <h3><a href="#">228万</a></h3>
+                </div>
+                <h4>信旺华府骏苑  3室2厅  228万</h4>
+            </div>
+            <div class="ne">
+                <div class="no-3">
+                    <h3><a href="#">125万</a></h3>
+                </div>
+                <h4>万振逍遥四期  2室1厅  125万</h4>
+            </div>
+            <div class="na">
+                <div class="no-4">
+                    <h3><a href="#">133万</a></h3>
+                </div>
+                <h4>绿地海顿公馆D  2室2厅  133万</h4>
+            </div>
+        </div>
+    </div>
+    <div id="xia">
+        <span><a href="#">世纪城春融苑  3室2厅  87平米</a></span>
+        <span><a href="#">信旺华府骏苑  3室2厅  155平米</a></span>
+        <span><a href="#">万振逍遥四期  2室1厅  69.05平米</a></span>
+        <span><a href="#">绿地海顿公馆D  2室2厅 89.28平米</a></span>
+    </div>
+</div>
+
+<div id="footer"></div>
+<script src="js/lj02.js"></script>
+</body>
+</html>
